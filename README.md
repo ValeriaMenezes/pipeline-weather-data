@@ -1,6 +1,6 @@
 # Pipeline Weather Data
 
-Projeto simples de exemplo que extrai dados de clima (OpenWeatherMap), transforma e carrega em um banco PostgreSQL. O projeto inclui uma DAG do Airflow (via `docker-compose`) e módulos Python para executar as fases ETL localmente.
+Projeto de extração de dados de clima via API (OpenWeatherMap), transforma e carrega em um banco PostgreSQL. O projeto inclui uma DAG do Airflow (via `docker-compose`) e módulos Python para executar as fases ETL localmente.
 
 ### 🎥 Assista no YouTube
 > 🔴 **[Assistir Tutorial Completo](https://www.youtube.com/@vbluuiza)**
@@ -56,7 +56,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina (preferencialm
 1. **Clone o repositório e acesse a pasta do projeto:**
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/ValeriaMenezes/pipeline-weather-data/tree/main
 cd pipeline_weather_data
 ```
 
